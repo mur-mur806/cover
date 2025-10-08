@@ -75,7 +75,84 @@ book.html
              </div>
           </body>
        </html>
-             
+ psychology.css
+       .bookpage{
+               width: 400px;
+               height: 600px;
+               color: white;
+               margin-left: auto;
+               margin-right: auto;
+               padding: 20px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow',Arial, sans-serif;
+               background-image: url(frontpage.png);
+               background-size: cover;
+           }
+
+
+           .insight{
+                color: white;
+
+           }
+
+
+           .hrstyle{
+                width: 100px
+           }
+           .author{
+
+               display: inline;
+               position: relative;
+               color: rgb(255, 255, 255);
+               top: 260px;
+              
+
+               font-family:Georgia;
+               font-size: bold;
+            }
+            .booktitle{
+                font-family: 'Courier New', Courier,monospace;
+                font-size: larger;
+                text-align: center;
+                position: relative;
+                top: 30px;
+
+            }
+            .id {
+                width:400px;
+                position:relative;
+                top:265px;
+
+            }
+            .pub{
+                font-size: medium;
+                position: relative;
+                top:220px;
+                left:300px;
+            }
+            .ed{
+                color: white;
+                font-size: medium;
+                font-family: Verdana;
+                position:relative;
+                top:165px;
+            
+            }
+            .subtitle{
+                font-family: Tahoma;
+                font-size: large;
+                position: relative;
+                left: 97px;
+                top:10px;
+            }
+            .muruga{
+                 position: relative;
+                 top: 220px;
+                 left: 250px;
+                 width: 100px;
+                 height: 100px;
+                 background-size: cover;
+             }
+                  
 ```
 ## OUTPUT:
 ![alt text](<Screenshot (47).png>)
